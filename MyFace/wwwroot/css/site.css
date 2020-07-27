@@ -1,0 +1,32 @@
+header{
+    position: sticky; 
+    top:0;
+    background: white;
+  }
+  .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#ebfaff;
+  }
+  .nav-link{
+    background: #03bafc;
+    padding: 27px 100px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size:20px;
+    transition: all 4s ease;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .nav-link:hover{
+    background-color: black;
+    transform: scale(0.5);
+    transform: rotate(360deg);
+  }
+
+  body{
+      background-color:#ebfaff;
+  }

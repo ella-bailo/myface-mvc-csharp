@@ -21,7 +21,7 @@ namespace MyFace.Controllers
         public IActionResult PostsPage(int pageNumber = 0, int pageSize = 10)
         {
             var posts = _posts.GetAll(pageNumber, pageSize);
-            var viewModel = new PostsViewModel(posts);
+            var viewModel = new PostsViewModel(posts, pageNumber);
             return View(viewModel);
         }
 
